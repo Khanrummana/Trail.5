@@ -17,7 +17,7 @@ html {
 }
 
 .container {
-  width: 80%; /* Slightly increased width */
+  width: 70%; /* Slightly increased width */
   margin: 0 auto;
   padding: 10px; /* Padding to prevent content from touching the sides */
 }
@@ -30,23 +30,23 @@ html {
 }
 
 .logo {
-  max-width: 100px; /* Adjust logo size */
-  margin-bottom: 5px; /* Space between logo and title */
+  max-width: 90px; /* Adjust logo size */
+  margin-bottom: 4.5px; /* Space between logo and title */
 }
 
 .title-container h1 {
-  font-size: 2.5rem; /* Larger title size */
+  font-size: 2.3rem; /* Larger title size */
   color: #0056b3; /* Blue color for the title */
 }
 
 .subtitle {
-  font-size: 1.2rem; /* Increased subtitle size */
+  font-size: 1.1rem; /* Increased subtitle size */
   color: #fff; /* Subtitle in gray */
 }
 
 .dataset-section {
   background-color: #f8f9fa; /* Light gray background for the dataset section */
-  padding: 20px 0; /* More padding for vertical space */
+  padding: 18px 0; /* More padding for vertical space */
   margin-top: 15px; /* Separate header from dataset section */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
@@ -118,14 +118,14 @@ html {
 }
 .open-button-container {
   text-align: center; /* Center the Open button */
-  margin-top: 15px; /* Add some space above the button */
+  margin-top: 10px; /* Add some space above the button */
 }
 
 footer {
   background-color: #343a40; /* Darker gray, almost black */
   color: #fff;
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   position: fixed;
   bottom: 0;
   width: 100%;
