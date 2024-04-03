@@ -46,15 +46,15 @@ html {
 
 .dataset-section {
   background-color: #f8f9fa; /* Light gray background for the dataset section */
-  padding: 15px 0; /* More padding for vertical space */
-  margin-top: 13px; /* Separate header from dataset section */
+  padding: 10px 0; /* More padding for vertical space */
+  margin-top: 10px; /* Separate header from dataset section */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
 .dataset-header h2 {
   text-align: center;
   color: #333; /* Dark gray text for contrast */
-  margin-bottom: 1.3rem; /* More space above datasets */
+  margin-bottom: 1rem; /* More space above datasets */
 }
 
 .dataset-container {
@@ -62,7 +62,7 @@ html {
   padding: 1rem;
   border-radius: 5px; /* Soft rounded corners */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for the container */
-  max-width: 800px; /* Width of the dataset container */
+  max-width: 6500px; /* Width of the dataset container */
   margin: 10px auto; /* Center dataset container with vertical space */
 }
 
