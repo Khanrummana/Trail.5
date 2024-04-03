@@ -19,7 +19,7 @@ html {
 .container {
   width: 70%; /* Slightly increased width */
   margin: 0 auto;
-  padding: 10px; /* Padding to prevent content from touching the sides */
+  padding: 8px; /* Padding to prevent content from touching the sides */
 }
 
 .header-container {
@@ -31,22 +31,22 @@ html {
 
 .logo {
   max-width: 80px; /* Adjust logo size */
-  margin-bottom: 4px; /* Space between logo and title */
+  margin-bottom: 3px; /* Space between logo and title */
 }
 
 .title-container h1 {
-  font-size: 2.3rem; /* Larger title size */
+  font-size: 2.2rem; /* Larger title size */
   color: #0056b3; /* Blue color for the title */
 }
 
 .subtitle {
-  font-size: 1.1rem; /* Increased subtitle size */
+  font-size: 1rem; /* Increased subtitle size */
   color: #fff; /* Subtitle in gray */
 }
 
 .dataset-section {
   background-color: #f8f9fa; /* Light gray background for the dataset section */
-  padding: 10px 0; /* More padding for vertical space */
+  padding: 15px 0; /* More padding for vertical space */
   margin-top: 10px; /* Separate header from dataset section */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
@@ -54,18 +54,20 @@ html {
 .dataset-header h2 {
   text-align: center;
   color: #333; /* Dark gray text for contrast */
-  margin-bottom: 1rem; /* More space above datasets */
+  margin-bottom: 0.8rem; /* More space above datasets */
 }
 
 .dataset-container {
   background-color: #fff; /* White background for datasets */
-  padding: 1rem;
+  padding: 0.8rem;
   border-radius: 5px; /* Soft rounded corners */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for the container */
-  max-width: 6500px; /* Width of the dataset container */
-  margin: 10px auto; /* Center dataset container with vertical space */
+  max-width: 650px; /* Width of the dataset container */
+  margin: 8px auto; /* Center dataset container with vertical space */
 }
-
+.dataset-content {
+  font-size: 1rem; /* Adjust the font size as needed */
+}
 .dataset-info {
   display: flex;
   justify-content: space-between;
