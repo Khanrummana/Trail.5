@@ -25,8 +25,8 @@ html {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: center; /* Center everything in the header */
-  flex-direction: column; /* Stack logo and title */
+  justify-content: space-between; /* Center everything in the header */
+  flex-direction: row; /* Stack logo and title */
 }
 
 .logo {
