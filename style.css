@@ -25,13 +25,13 @@ html {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between; /* Center everything in the header */
-  flex-direction: row; /* Stack logo and title */
+  justify-content: center; /* Center everything in the header */
+  flex-direction: column; /* Stack logo and title */
 }
 
 .logo {
-  max-width: 90px; /* Adjust logo size */
-  margin-bottom: 4.5px; /* Space between logo and title */
+  max-width: 80px; /* Adjust logo size */
+  margin-bottom: 4px; /* Space between logo and title */
 }
 
 .title-container h1 {
@@ -46,15 +46,15 @@ html {
 
 .dataset-section {
   background-color: #f8f9fa; /* Light gray background for the dataset section */
-  padding: 18px 0; /* More padding for vertical space */
-  margin-top: 15px; /* Separate header from dataset section */
+  padding: 15px 0; /* More padding for vertical space */
+  margin-top: 13px; /* Separate header from dataset section */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
 }
 
 .dataset-header h2 {
   text-align: center;
   color: #333; /* Dark gray text for contrast */
-  margin-bottom: 1.5rem; /* More space above datasets */
+  margin-bottom: 1.3rem; /* More space above datasets */
 }
 
 .dataset-container {
@@ -70,9 +70,9 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center; /* Align items vertically */
-  margin-bottom: 0.5rem;
-  padding-bottom: 0.5rem; /* Space below each dataset row */
-  border-bottom: 1px solid #e9ecef; /* Separator line for each dataset */
+  margin-bottom: 0.4rem;
+  padding-bottom: 0.4rem; /* Space below each dataset row */
+  border-bottom: 0.8px solid #e9ecef; /* Separator line for each dataset */
 }
 
 .dataset-label {
@@ -88,11 +88,11 @@ html {
   background-color: #0056b3; /* Blue for the button */
   color: #fff;
   border: none;
-  padding: 10px 20px; /* More padding for a bigger button */
+  padding: 8px 15px; /* More padding for a bigger button */
   cursor: pointer;
   display: inline-block; /* Allow width to fit content */
   border-radius: 5px; /* Rounded corners for button */
-  font-size: 1rem; /* Standard font size for button */
+  font-size: 0.8rem; /* Standard font size for button */
   text-align: center;
 }
 
@@ -109,7 +109,7 @@ html {
   border-radius: 4px; /* Rounded corners */
   font-family: 'Arial', sans-serif; /* Match the font with the rest of the page */
   font-size: 1rem; /* Standard font size */
-  margin-bottom: 1rem; /* Space below the dropdown */
+  margin-bottom: 0.8rem; /* Space below the dropdown */
 }
 
 .dropdown option {
@@ -118,7 +118,7 @@ html {
 }
 .open-button-container {
   text-align: center; /* Center the Open button */
-  margin-top: 10px; /* Add some space above the button */
+  margin-top: 8px; /* Add some space above the button */
 }
 
 footer {
